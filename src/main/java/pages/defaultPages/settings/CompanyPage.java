@@ -2,7 +2,7 @@ package pages.defaultPages.settings;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
-import pages.defaultPages.Page;
+import pages.Page;
 
 import static com.codeborne.selenide.Selenide.$;
 

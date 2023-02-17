@@ -1,6 +1,6 @@
 package pages.extraPages;
 
-import pages.defaultPages.Page;
+import pages.Page;
 
 public class ThirdPartiesPage extends Page implements BaseModule{
     public ThirdPartiesPage(String href) {

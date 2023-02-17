@@ -1,6 +1,6 @@
 package pages.extraPages;
 
-import pages.defaultPages.Page;
+import pages.Page;
 
 public class ProductsPage extends Page implements BaseModule{
     public ProductsPage(String href) {

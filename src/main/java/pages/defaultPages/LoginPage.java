@@ -1,8 +1,10 @@
 package pages.defaultPages;
 
 import com.codeborne.selenide.SelenideElement;
+import exceptions.PageTypeException;
 import org.openqa.selenium.By;
-import webApplication.Application;
+import pages.Page;
+import webApplication.ApplicationRoute;
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -17,11 +19,11 @@ public class LoginPage extends Page {
         super(href);
     }
 
-    public InformationPanelPage login(String username, String password){
+    public InformationPanelPage login(String username, String password) throws PageTypeException {
         USERNAME_INPUT_FIELD.setValue(username);
         PASSWORD_INPUT_FIELD.setValue(password);
         SUBMIT_BUTTON.click();
 
-        return Application.informationPanelPage;
+        return ApplicationRoute.getInformationPanelPage();
     }
 }

@@ -1,6 +1,6 @@
 package pages.extraPages;
 
-import pages.defaultPages.Page;
+import pages.Page;
 
 public class HRPage extends Page {
     public HRPage(String href) {

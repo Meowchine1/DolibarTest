@@ -1,4 +1,4 @@
-package pages.defaultPages;
+package pages;
 
 import com.codeborne.selenide.Selenide;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
 package pages.defaultPages.settings;
 
-import pages.defaultPages.Page;
+import pages.Page;
 
 public class ModulesPage extends Page {
     public ModulesPage(String href) {

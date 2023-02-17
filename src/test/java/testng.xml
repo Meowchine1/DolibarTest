@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite>
+    <test name="testTrying">
+        <parameter name="BROWSER" value="CHROME"/>
+        <parameter name="AUTHORIZATION" value="true"/>
+        <classes>
+
+
+        </classes>
+
+    </test>
+</suite>
