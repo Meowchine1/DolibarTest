@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite>
+<suite name="katya">
     <test name="testTrying">
         <parameter name="BROWSER" value="CHROME"/>
         <parameter name="AUTHORIZATION" value="true"/>
         <classes>
-
+            <class name="baseTest.Start"/>
+            <class name="tests.functionalTests.TestTest"/>
 
         </classes>
 

@@ -25,7 +25,7 @@ public class Start {
         instance.initDriver();
         if(authorization){
              LoginPage loginPage = ApplicationRoute.getAndOpenLoginPage();
-             loginPage.login("validUsrnm", "validPwd");
+             loginPage.login("root", "8962615k");
         }
     }
 
