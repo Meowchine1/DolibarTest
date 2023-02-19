@@ -9,7 +9,7 @@ import webApplication.ApplicationRoute;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage extends Page {
-    private final SelenideElement
+    private static final SelenideElement
             USERNAME_INPUT_FIELD = $(By.id("username")),
             PASSWORD_INPUT_FIELD = $(By.id("password")),
             SUBMIT_BUTTON = $(By.cssSelector("[type='submit']")),
