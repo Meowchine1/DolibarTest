@@ -4,7 +4,7 @@ public class Hrefs {
     public static final String BASE_PAGE_URL = "http://localhost/dolibarr-develop";
     public static final String ADMINTOOLS_PAGE_URL = "";
     public static final String INFORMATIONPANEL_PAGE_URL = "";
-    public static final String LOGIN_PAGE_URL = "";
+    public static final String LOGIN_PAGE_URL = BASE_PAGE_URL + "/htdocs";
     public static final String HR_PAGE_URL = "";
     public static final String PRODUCTS_PAGE_URL = "";
     public static final String THIRDPARTIES_PAGE_URL = "";

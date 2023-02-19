@@ -20,6 +20,8 @@ public class Browser {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        Configuration.driverManagerEnabled = true;
+        Configuration.headless = false;
         // remote testing
         //Configuration.driberManagerEnabled = false
         //Configuration.remote = ""
