@@ -16,9 +16,8 @@ import webApplication.ApplicationRoute;
 public class Start {
     private Browser instance;
     private BrowserType type;
-
-    @Parameters({"BROWSER", "AUTHORIZATION"})
     @BeforeClass
+    @Parameters({"BROWSER", "AUTHORIZATION"})
     public void start(String browser, boolean authorization) throws XmlConfigureException, BrowserTypeException, PageTypeException {
         type = StringToEnum.convertBrowserType(browser);
         instance = BrowserPool.getInstance(type);
